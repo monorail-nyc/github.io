@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>monorail</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/monorail.css" />
+</head>
+<body class="about">
+
+    <div class="hero">
+        <header>
+            <a href="/" class="brand">monorail</a>
+
+            <nav>
+                <ul>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="#work">Our Work</a></li>
+                    <li><a href="mailto:joshua@monorail.nyc">Get In Touch</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+
+    <div id="team">
+        
+        <h1>Monorail is a software engineering firm led by</h1>
+        <h2><a href="#team">Jason Gresh</a> and <a href="#">Joshua Lerner</a>, partners with many years experience building modern applications to meet business goals, in the form of web and mobile applications, and the infrastructure needed to support them.
+We lead a team of front end and back end engineers.</h2>
+        
+        <ul id="team-list">
+            <li>
+                <img src="/img/jason.png" />
+                <h4>Jason Gresh</h4>
+                <p>Partner</p>
+            </li>
+
+            <li>
+                <img src="/img/josh.png" />
+                <h4>Joshua Lerner</h4>
+                <p>Partner</p>
+            </li>
+
+            <li>
+                <img src="/img/zach.png" />
+                <h4>Zachary Mayberry</h4>
+                <p>Designer/Developer</p>
+            </li>
+        </ul>
+
+        <p style="clear: both"></p>
+        <br />
+        <br />
+        <br />
+
+        <div class="iphone-wrap">
+        <p>We interface with a variety of clients, large and small, at different stages in their development process. We offer the most value at the beginning of a project, when we can help you choose among what is usually a dizzying array of options. We will help you decide on a strategy for your application and take you through all stages of building it. But we're also comfortable coming in at later stages of established projects.<p>
+
+        <h3 id="mobiledevelopment">Mobile Development</h3>
+        <p>There are tradeoffs when approaching mobile development. There's the fine control within a native application and there's a potential for broader reach and lower startup costs with building your application with mobile optimized web technology. We're on top of this issue and debate it internally. We can share with you what we've found, the good, the bad and the ugly. Speaking of which, we don't use or promote any so called multi-platform or cross compiling tools to address the platform problem.</p>
+        <img src="/img/about-iphone6.png" class="iphone" /></div>
+
+        <p>Why don't we use cross platform tools? For many applications, these wind up being one size fits none solutions that aren't as economical as they're portrayed to be because the end product doesn't feel right anywhere. Disagree? Let's debate it. We like challenging ourselves about this one too. For instance, we're sure there are some types of game applications for which these tools are particularly well suited. In the meantime native and mobile optimized HTML5 sit at either end of our native/cross-platform continuum.</p>
+
+        <div class="col-1 first">
+            <h3 id="infrastructure">Our Approach to Project Management</h3>
+            <p>Monorail takes a straightforward and collaborative approach to managing projects. We don't subscribe to any particular project management orthodoxy but we like many elements of Agile, particularly its emphasis on quick iterative coding sprints and its focus on working software. We'll gladly take the lead or work within your structure, whatever makes sense.</p>
+
+            <h3 id="webdevelopment">Web Development</h3>
+            <p>We follow best practices, writing clean HTML5 and CSS, using lightweight UI frameworks like Bootstrap and Foundation, as well as Javascript libraries like Backbone and jQuery. On the back end we generally employ a LAMP stack to feed the independent client-side interfaces.</p>
+        </div>
+
+        <div class="col-1">
+            <h3 id="infrastructure">Infrastructure</h3>
+            <p>Building web sites and mobile applications calls for the right infrastructure. We architect and build custom environments that aim to meet the needs, and only the needs of the application at hand. We usually use a "cloud computing" approach to this. If that term is either unclear or overused to you, we simply mean that we take advantage of the lower costs and variable scale that virtualized machines offer. We often use Amazon AWS but can use other providers when there is an advantage to it. </p>
+        </div>
+
+
+
+    </div>
+        
+    <div id="callouts">
+        <div class="hr"></div>
+        
+        <div class="callout">
+            <img src="/img/callout-chat.png" />
+            <h5>Do you have a product idea?</h5>
+            <p>Let's talk about it. We're good listeners. We'll help you get past the confusing first steps.</p>
+        </div>
+
+        <div class="callout">
+            <img src="/img/callout-like.png" />
+            <h5>Are you a design shop?</h5>
+            <p>Let's collaborate. We love materializing your .sketch or .psd into living beathing apps.</p>
+        </div>
+
+        <a href="mailto:joshua@monorail.nyc" class="btn">Let's Start Something</a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.slickwrap.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+
+    <script type="text/javascript" charset="UTF-8">
+        $(document).ready(function(){
+            $('.iphone').slickWrap();
+        });
+    </script>
+</body>
+</html>
