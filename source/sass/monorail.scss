@@ -30,7 +30,7 @@ a {
 
 .hero {
     position: relative;
-    background: url('/img/top-background.jpg') 50% 50% no-repeat;
+    background: url('/img/top-background-custom.jpg') 50% 50% no-repeat;
     background-size: auto 100%;
     padding: 0 5%;
     height: 434px;
@@ -198,8 +198,15 @@ ul.services {
         padding: 0 30px;
         margin: 0 auto 30px;
         @media only screen and (min-width: 47.938em) { 
-            width: 30%;
+            display: block;
+            float: left;
+            width: 33.3%;
             margin-bottom: 0;
+            padding-top: 80px;
+
+            &.mobile {
+                padding-top: 0;
+            }
         }
 
         &.visible {
