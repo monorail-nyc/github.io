@@ -1,6 +1,9 @@
 {
   "name": "Monorail",
   "version": "0.1.0",
+  "description": "description",
+  "license" : "BSD-3-Clause",
+  "repository": "git@github.com:monorailnyc/monorailnyc.github.io.git",
   "devDependencies": {
     "grunt": "^0.4.4",
     "grunt-contrib-concat": "^0.4.0",
