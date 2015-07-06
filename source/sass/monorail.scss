@@ -307,6 +307,18 @@ ul.work {
         }
     }
 
+    li.work-fresco {
+        background: url('/img/work-fresco-background.jpg') -2px -2px no-repeat;
+        background-size: auto 125%;
+        @media only screen and (min-width: 47.938em) { 
+            background-size: 160% auto;
+            padding: 30px;
+        }
+        @media only screen and (min-width: 72em) { 
+            background-size: 105% auto;
+        }
+    }
+
     li.work-college {
         background: url('/img/work-college-background.jpg') -2px -2px no-repeat;
         background-size: auto 125%;
